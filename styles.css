@@ -250,3 +250,29 @@ footer div.content div {
   padding: 2rem 1rem;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  header nav h1 {
+    font-size: 1.5rem;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  header nav ul {
+    gap: -1rem;
+  }
+
+  main section {
+    padding: 0 1rem;
+  }
+
+  .about .content {
+    width: 100%;
+  }
+  .about {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
